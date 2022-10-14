@@ -3,7 +3,7 @@ import MainContent from "./components/MainContent";
 
 export default function App() {
   return (
-    <div>
+    <div className="flex flex-col items-center">
       <Header/>
       <MainContent/>
     </div>
