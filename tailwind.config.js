@@ -5,11 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      width: {
-        '128': '36rem',
-      },
       scale: {
-        '90': '0.95'
+        '90': '0.99'
       }
     },
   },
