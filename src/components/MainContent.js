@@ -19,7 +19,7 @@ export default function MainContent() {
         setMeme(prevMeme => {
             return {
                 ...prevMeme,
-                randomImage: memesArray[randomNumber].url,
+                randomImage: memesArray[randomNumber].url
             };
         });
     }

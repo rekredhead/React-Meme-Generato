@@ -7,7 +7,7 @@ export default function Header() {
                 <img className="w-10" src="./images/memeLogo.png" alt="Logo"/>
                 <p className="text-white font-semibold ml-1 text-lg">Meme Generator</p>
             </div>
-            <h5 className="text-white text-sm">React Course - Project 4</h5>
+            <h5 className="text-white text-sm font-semibold">React Course - Project 4</h5>
         </div>
     );
 }
