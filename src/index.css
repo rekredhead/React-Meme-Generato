@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    @responsive {
+        .text-stroke-black {
+            -webkit-text-stroke: 0.03em black;
+        }
+    }
+}
